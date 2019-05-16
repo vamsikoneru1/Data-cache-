@@ -507,7 +507,7 @@ String name="";
 			Fileupload fileup = new Fileupload();
 			ModelAndView indexPage= new ModelAndView();
 			System.out.println("image path is "+ image.getOriginalFilename());
-	       BasicAWSCredentials cred= new BasicAWSCredentials("AKIAJD34JQF3UMIB5LHQ","l8GoBuag+RrSKYhlzj1thgW0fj+EBPQ1ddf5mQks");
+	       BasicAWSCredentials cred= new BasicAWSCredentials("//Inster your access key","insert your secret key");
 	       Fileupload f=new Fileupload();
 	       f.setFile(image.getBytes());
 	       f.setUsername(name );
